@@ -430,7 +430,7 @@ module.exports = JPEG = (function() {
 			}
 		},
 		copyToImageData: function(imageData) {
-			var width = this.width, height = this.width;
+			var width = this.width, height = this.height;
 			var scaleX = this.width / width, scaleY = this.height / height;
 			
 			var component1, component2, component3, component4;
